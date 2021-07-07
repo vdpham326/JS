@@ -14,3 +14,17 @@ const multiplyNumbers = numbers => {
     return total * current;
   }, 1)
 }
+
+const getLocationString = location => {
+  return const[lat, lng] = location;
+
+}
+
+const getFullName = user => {
+  const [first, last] = user;
+  return `${first ${last}`;
+}
+
+const getApps = (apps1, apps2) => {
+
+}
