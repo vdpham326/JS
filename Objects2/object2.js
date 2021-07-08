@@ -15,3 +15,11 @@ const logValues = course => {
     console.log(course[key]);
   })
 }
+
+const getTranslation = (language) => {
+  return getTranslation.welcome[language];
+}
+
+const getUser = (id, name) => {
+  return {id, name};
+}
